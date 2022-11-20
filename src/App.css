@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+.wrapper {
+  padding: 20px;
+}
+.Navbar {
+  background-color: #e6e8ec;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.workPage {
+  background-color: #e6e8ec;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+.playPage {
+  background-color: #e6e8ec;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.codePage {
+  background-color: #e6e8ec;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  font-size: calc(10px + 2vmin);
+  font-family: "Franklin Gothic Medium", "Arial wide", Arial, sans-serif;
+  color: rgb(27, 93, 95);
+}
+
+.aboutPage {
+  background-color: #e6e8ec;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  font-size: calc(10px + 2vmin);
+  font-family: "Franklin Gothic Medium", "Arial wide", Arial, sans-serif;
+  color: rgb(27, 93, 95);
+}
+.App-header {
+  color: cadetblue;
+}
+
+.App-footer {
+  color: cadetblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e8ec;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#header-name {
+  font-size: 20px;
+  font-weight: normal;
+
+  font-family: "Franklin Gothic Medium", "Arial wide", Arial, sans-serif;
+  color: cadetblue;
+  position: relative;
+  padding-left: 70%;
+}
+
+.linkText {
+  font-family: "Franklin Gothic Medium", "Arial wide", Arial, sans-serif;
+  color: cadetblue;
+  text-decoration: none;
+  font-size: 150%;
+}
+#header-links {
+  font-family: "Franklin Gothic Medium", "Arial wide", Arial, sans-serif;
+  /* font-size: 150%; */
+  color: cadetblue;
+}
+
+.linkedIn {
+  color: black;
+}
+
+#linkedin {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: right;
+  padding: 10px;
+}
+
+#footer-author {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: right;
+  padding: 10px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: right;
+}
+
+.coffee-image {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: right;
+}
