@@ -15,7 +15,7 @@ function Footer() {
                 <i className="fa-brands fa-linkedin" id="linkedin"></i>
               </a>
               <a href="https://github.com/NaomiBBrender">
-                <i class="fa-brands fa-github" id="linkedin"></i>
+                <i className="fa-brands fa-github" id="linkedin"></i>
               </a>
             </p>
           </Col>

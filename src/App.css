@@ -3,6 +3,7 @@
 }
 .wrapper {
   padding: 20px;
+  font-family: "Franklin Gothic Medium", "Arial wide", Arial, sans-serif;
 }
 .Navbar {
   background-color: #e6e8ec;
@@ -57,11 +58,39 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: justify;
+  text-align: justify-left;
   font-size: calc(10px + 2vmin);
   font-family: "Franklin Gothic Medium", "Arial wide", Arial, sans-serif;
   color: rgb(27, 93, 95);
 }
+#about-greeting {
+  font-size: 25px;
+  display: flex;
+  font-weight: normal;
+  align-items: left;
+  justify-content: left;
+  text-align: justify;
+  margin-left: 10%;
+}
+
+#contact-button {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  text-align: justify;
+  margin: 10%;
+}
+
+#about-button {
+  color: rgb(71, 52, 23);
+  background-color: rgb(250, 228, 201);
+  border-color: rgb(191, 193, 193);
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  /* text-align: justify; */
+}
+
 .App-header {
   color: cadetblue;
 }
@@ -116,6 +145,7 @@
   align-items: right;
   justify-content: right;
   padding: 10px;
+  color: rgb(27, 93, 95);
 }
 
 #footer-author {
@@ -131,6 +161,7 @@
   flex-direction: row;
   align-items: right;
   justify-content: right;
+  color: rgb(27, 93, 95);
 }
 
 .coffee-image {
@@ -138,4 +169,25 @@
   flex-direction: row;
   align-items: flex-end;
   justify-content: right;
+}
+
+#about-card {
+  background-color: #e6e8ec;
+  border: none;
+}
+#about-photo {
+  margin: 20%;
+  background-color: #fafbfd;
+}
+#about-body {
+  margin: 10%;
+  background-color: #e6e8ec;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#about-link {
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial wide", Arial, sans-serif;
+  color: rgb(27, 93, 95);
 }
