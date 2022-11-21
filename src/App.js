@@ -6,6 +6,7 @@ import Footer from "./Components/Footer";
 import Work from "./Components/Work";
 import Play from "./Components/Play";
 import Code from "./Components/Code";
+import Coffee from "./Components/Coffee";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -21,6 +22,7 @@ function App() {
           <Route path="/work" element={<Work />} />
           <Route path="/play" element={<Play />} />
           <Route path="/code" element={<Code />} />
+          <Route path="/coffee" element={<Coffee />} />
         </Routes>
       </Router>
       <Footer />

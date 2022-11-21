@@ -28,8 +28,7 @@ const About = () => {
                 </Card.Text>
                 <Card.Text id="about-body">
                   When I'm not working you can find me reading a book, climbing
-                  with friends or exploring the city on hot pink vintage peugeot
-                  mixte
+                  rocks or exploring the city on hot pink vintage peugeot mixte.
                 </Card.Text>
                 <Card.Text id="contact-button">
                   <Button

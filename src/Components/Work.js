@@ -9,13 +9,25 @@ const Work = () => {
       <Container>
         <Row>
           <Col>
-            <a href="/code">
-              <Image width="300" src="/images/chefhopperbakery.png" rounded />
-            </a>
+            <Card id="work-card">
+              <Card.Body id="work-body">
+                <a href="/code">
+                  <Image
+                    width="300"
+                    src="/images/graceShopperCodephoto.png"
+                    rounded
+                  />
+                </a>
+              </Card.Body>
+            </Card>
           </Col>
 
           <Col>
-            <Coffee />
+            <Card id="work-card">
+              <Card.Body id="work-body">
+                <Coffee />
+              </Card.Body>
+            </Card>
           </Col>
         </Row>
       </Container>
