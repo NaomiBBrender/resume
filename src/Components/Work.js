@@ -27,7 +27,9 @@ const Work = () => {
             <Card id="work-card">
               <Card.Body id="work-body">
                 <Card.Title>COFFEE</Card.Title>
-                <Coffee />
+                <a href="/coffee">
+                  <Image width="300" src="/images/coffee.png" />
+                </a>
               </Card.Body>
             </Card>
           </Col>
