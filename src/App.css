@@ -3,7 +3,7 @@
 }
 .wrapper {
   padding: 20px;
-  font-family: "Franklin Gothic Medium", "Arial wide", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial wide', Arial, sans-serif;
 }
 .Navbar {
   background-color: #e6e8ec;
@@ -47,7 +47,7 @@
   justify-content: center;
   text-align: left;
   font-size: calc(10px + 2vmin);
-  font-family: "Franklin Gothic Medium", "Arial wide", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial wide', Arial, sans-serif;
   color: rgb(27, 93, 95);
 }
 
@@ -60,7 +60,7 @@
   justify-content: center;
   text-align: justify-left;
   font-size: calc(10px + 2vmin);
-  font-family: "Franklin Gothic Medium", "Arial wide", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial wide', Arial, sans-serif;
   color: rgb(27, 93, 95);
 }
 #about-greeting {
@@ -117,20 +117,20 @@
   font-size: 20px;
   font-weight: normal;
 
-  font-family: "Franklin Gothic Medium", "Arial wide", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial wide', Arial, sans-serif;
   color: cadetblue;
   position: relative;
   padding-left: 70%;
 }
 
 .linkText {
-  font-family: "Franklin Gothic Medium", "Arial wide", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial wide', Arial, sans-serif;
   color: cadetblue;
   text-decoration: none;
   font-size: 150%;
 }
 #header-links {
-  font-family: "Franklin Gothic Medium", "Arial wide", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial wide', Arial, sans-serif;
   /* font-size: 150%; */
   color: cadetblue;
 }
@@ -181,6 +181,7 @@
 }
 #about-body {
   margin: 10%;
+  margin-left: 3%;
   background-color: #e6e8ec;
   font-size: 20px;
   font-weight: normal;
@@ -188,12 +189,12 @@
 
 #about-link {
   text-decoration: none;
-  font-family: "Franklin Gothic Medium", "Arial wide", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial wide', Arial, sans-serif;
   color: rgb(27, 93, 95);
 }
 
 #work-body {
-  margin: 10%;
+  margin: 0%;
   background-color: #e6e8ec;
   font-size: 20px;
   font-weight: normal;
@@ -202,7 +203,11 @@
 #work-card {
   background-color: #e6e8ec;
   border: none;
-  margin: 20%;
+  margin: 0%;
+}
+#work-card:hover {
+  transition-duration: 1s;
+  filter: grayscale();
 }
 
 .codePage {
@@ -214,7 +219,7 @@
   justify-content: left;
   text-align: left;
   font-size: calc(10px + 2vmin);
-  font-family: "Franklin Gothic Medium", "Arial wide", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial wide', Arial, sans-serif;
   color: rgb(27, 93, 95);
   border: none;
 }
@@ -228,7 +233,7 @@
   justify-content: left;
   text-align: left;
   font-size: calc(10px + 2vmin);
-  font-family: "Franklin Gothic Medium", "Arial wide", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial wide', Arial, sans-serif;
   color: rgb(27, 93, 95);
   border: none;
 }
