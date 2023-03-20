@@ -7,6 +7,9 @@ import Work from "./Components/Work";
 import Play from "./Components/Play";
 import Code from "./Components/Code";
 import Coffee from "./Components/Coffee";
+import Contact from "./Components/Contact";
+import ChefHopper from "./Components/ChefHopper";
+import LisaQuest from "./Components/LisaQuest";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -23,6 +26,9 @@ function App() {
           <Route path="/play" element={<Play />} />
           <Route path="/code" element={<Code />} />
           <Route path="/coffee" element={<Coffee />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/chefHopper' element={<ChefHopper />} />
+          <Route path='/lisaQuest' element={<LisaQuest />} />
         </Routes>
       </Router>
       <Footer />

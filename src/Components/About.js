@@ -9,7 +9,7 @@ const About = () => {
           <Col>
             <Card id='about-card'>
               <Card.Body id='about-photo'>
-                <Card.Img src='/images/hammyAndMe.png' />
+                <Card.Img src='/images/Naomi Player.png' />
               </Card.Body>
             </Card>
           </Col>

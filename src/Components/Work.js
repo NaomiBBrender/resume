@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import Coffee from './Coffee';
 import Code from './Code';
-import { Container, Row, Col, Card, Image, Overlay } from 'react-bootstrap';
+import { Container, Row, Col, Card, Image } from 'react-bootstrap';
 
 const Work = () => {
   const [show, setShow] = useState(false);
@@ -23,7 +23,6 @@ const Work = () => {
                   />
                 </a>
               </Card.Body>
-              <Overlay></Overlay>
             </Card>
           </Col>
 

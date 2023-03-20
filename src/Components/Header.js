@@ -42,6 +42,11 @@ function Header() {
                   Play
                 </a>
               </Col>
+              <Col>
+                <a className="linkText" href="./contact">
+                  Contact
+                </a>
+              </Col>
             </Row>
           </Container>
         </Navbar>
