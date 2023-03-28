@@ -1,12 +1,10 @@
 import { React } from "react";
 import Container from "react-bootstrap/Container";
-import About from "./About";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+// import About from "./About";
+import { BrowserRouter as Router} from "react-router-dom";
 import {
   Row,
   Col,
-  Button,
-  Nav,
   Navbar,
   // NavDropdown,
 } from "react-bootstrap";

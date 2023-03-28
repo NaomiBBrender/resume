@@ -1,17 +1,17 @@
 import { React } from "react";
-import { Image, Card, Row, Col, Container } from "react-bootstrap";
+import { Card, Row, Col, Container } from "react-bootstrap";
 
 const ChefHopper = () => {
   return (
     <div className="chefHopperPage">
       <Container i>
         <Row>
-          <Col>
+          {/* <Col> */}
             <Card id="code-card">
-              <Card.Img src="/images/chefhopperbakery.png" rounded />
+              <Card.Img id="code-image" src="/images/chefhopperbakery.png" rounded />
             </Card>
-          </Col>
-          <Col>
+          {/* </Col> */}
+          {/* <Col> */}
             <Card id="code-card">
               <Card.Body>
                 <Card.Text>
@@ -24,7 +24,7 @@ const ChefHopper = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col>
+          {/* </Col> */}
         </Row>
         <Row>
           <Col>
@@ -44,7 +44,7 @@ const ChefHopper = () => {
         </Row>
         <Row>
           <Col>
-            <Card>
+            <Card id="code-card">
               <Card.Img src="/images/brainstormingGraceShopperRoutes.png" />
             </Card>
           </Col>

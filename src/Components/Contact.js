@@ -1,5 +1,5 @@
 import React, { useRef, useState }  from "react";
-import { Container, Row, Col, Card, Image } from "react-bootstrap";
+import { Container, Row, Card } from "react-bootstrap";
 import emailjs from '@emailjs/browser'
 
 const emailJSAPIKey = process.env.emailJSAPIKey;

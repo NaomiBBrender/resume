@@ -1,5 +1,5 @@
 import { React } from "react";
-import { Image, Card, Row, Col, Container } from "react-bootstrap";
+import { Card, Row, Col, Container } from "react-bootstrap";
 
 const Code = () => {
   return (

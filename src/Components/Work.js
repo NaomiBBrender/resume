@@ -1,10 +1,10 @@
 import React, { useState, useRef } from 'react';
-import Coffee from './Coffee';
-import Code from './Code';
+// import Coffee from './Coffee';
+// import Code from './Code';
 import { Container, Row, Col, Card, Image } from 'react-bootstrap';
 
 const Work = () => {
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
 
   return (
     <div className='workPage'>

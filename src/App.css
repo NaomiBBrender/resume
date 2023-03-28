@@ -174,7 +174,7 @@
 #about-card {
   background-color: #e6e8ec;
   border: none;
-  width: 10
+
 }
 #about-photo {
   margin: 20%;
@@ -240,14 +240,23 @@
 }
 
 #code-card {
-  margin: 10%;
+  margin: 5%;
   font-size: calc(10px + 1vmin);
   background-color: #e6e8ec;
-  border: none;
+  /* border: none; */
+  width: 100%;
+  /* height: 30rem; */
+
+
 }
 
 #coffee-page {
   margin-top: 2%;
+}
+#code-image {
+  justify-content: center;
+  align-items: center;
+  width: 400
 }
 
 
@@ -263,6 +272,10 @@
   font-family: 'Franklin Gothic Medium', 'Arial wide', Arial, sans-serif;
   color: rgb(27, 93, 95);
   border: none;
+}
+
+.chefHopperPage {
+  background-color: #e6e8ec;
 }
 
 #contact-form {
