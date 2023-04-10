@@ -257,17 +257,17 @@
   font-size: calc(10px + 1vmin);
   background-color: #e6e8ec;
   /* border: none; */
-  width: 100%;
+  /* width: 50%; */
   /* height: 30rem; */
 }
 
 #coffee-page {
   margin-top: 2%;
 }
-#code-image {
+#code-card .code-image {
   justify-content: center;
   align-items: center;
-  width: 400;
+  width: 50%;
 }
 
 .contactPage {
