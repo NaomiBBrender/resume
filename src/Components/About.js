@@ -38,7 +38,7 @@ const About = () => {
                     variant='custom'
                     id='about-button'
                     onClick={(e) => {
-                      window.location.href = 'mailto:NaomiBBrender@gmail.com';
+                      window.open('mailto:NaomiBBrender@gmail.com');
                     }}
                   >
                     LET'S WORK TOGETHER

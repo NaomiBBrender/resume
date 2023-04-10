@@ -154,6 +154,7 @@
   align-items: right;
   justify-content: right;
   padding: 10px;
+  /* text-align: center; */
 }
 
 .footer-links {
@@ -174,7 +175,6 @@
 #about-card {
   background-color: #e6e8ec;
   border: none;
-
 }
 #about-photo {
   margin: 20%;
@@ -201,6 +201,12 @@
   background-color: #e6e8ec;
   font-size: 20px;
   font-weight: normal;
+  justify-content: center;
+}
+
+#work-body:hover {
+  transition-duration: 0.8s;
+  filter: grayscale();
 }
 /* .workCards {
   display: flex;
@@ -217,7 +223,6 @@
   transition-duration: 0.5s;
   filter: grayscale();
 }
-
 
 .codePage {
   background-color: #e6e8ec;
@@ -254,8 +259,6 @@
   /* border: none; */
   width: 100%;
   /* height: 30rem; */
-
-
 }
 
 #coffee-page {
@@ -264,9 +267,8 @@
 #code-image {
   justify-content: center;
   align-items: center;
-  width: 400
+  width: 400;
 }
-
 
 .contactPage {
   background-color: #e6e8ec;
@@ -285,18 +287,23 @@
 .chefHopperPage {
   background-color: #e6e8ec;
 }
+.lisaQuestPage {
+  background-color: #e6e8ec;
+  text-align: center;
+  min-height: 4in;
+}
 
 #contact-form {
   display: flex;
   flex-direction: column;
   align-items: left;
   color: rgb(27, 93, 95);
-  background-color:  #e6e8ec;
-  margin: 20px
+  background-color: #e6e8ec;
+  margin: 20px;
 }
 
 #contact-card {
-  background-color:  #e6e8ec;
+  background-color: #e6e8ec;
   border-color: rgb(27, 93, 95);
   /* width: 50% */
 }

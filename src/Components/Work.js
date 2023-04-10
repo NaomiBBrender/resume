@@ -2,7 +2,8 @@ import React, { useState, useRef } from 'react';
 // import Coffee from './Coffee';
 // import Code from './Code';
 import { Container, Row, Col, Card, Image } from 'react-bootstrap';
-import Figure from 'react-bootstrap/Figure';
+// import Figure from 'react-bootstrap/Figure';
+import { Link } from 'react-router-dom';
 
 const Work = () => {
   // const [show, setShow] = useState(false);
@@ -12,39 +13,45 @@ const Work = () => {
       id: 1,
       title: 'Stoop Friends',
       image: '',
+      link: '',
     },
     {
       id: 2,
       title: 'Lisa Quest',
       image: '/images/PlayLisaQuest.png',
+      link: '/lisaQuest',
     },
     {
       id: 3,
       title: 'Chef Hopper',
       image: '/images/chefhopperbakery.png',
+      link: '/chefHopper',
     },
     {
       id: 4,
       title: 'Coffee',
       image: '/images/coffee.png',
+      link: '/coffee',
     },
   ];
 
   return (
     <div className='workPage'>
-      <Container clasName='workCards'>
+      <Container id='work-card'>
         <Row>
           {workArray.map((job) => {
             return (
               <Card key={job.id}>
-                <Card.Body id='work-body'>
-                  <Image
-                    // width='400'
-                    height='200'
-                    // alt='400x300'
-                    src={job.image}
-                  />
-                </Card.Body>
+                <Link to={job.link}>
+                  <Card.Body id='work-body'>
+                    <Image
+                      // width='400'
+                      height='200'
+                      // alt='400x300'
+                      src={job.image}
+                    />
+                  </Card.Body>
+                </Link>
               </Card>
             );
           })}
@@ -68,7 +75,7 @@ const Work = () => {
             </Card.Body> */}
           {/* </Card> */}
         </Row>
-        <Row>
+        {/* <Row>
           <Card>
             <Card.Body id='work-body'>
               <Card.Title>COFFEE</Card.Title>
@@ -77,7 +84,7 @@ const Work = () => {
               </a>
             </Card.Body>
           </Card>
-        </Row>
+        </Row> */}
       </Container>
     </div>
   );
