@@ -6,10 +6,10 @@ import Footer from "./Components/Footer";
 import Work from "./Components/Work";
 import Play from "./Components/Play";
 import Code from "./Components/Code";
-import Coffee from "./Components/Coffee";
+import Coffee from "./Components/work/Coffee";
 import Contact from "./Components/Contact";
-import ChefHopper from "./Components/ChefHopper";
-import LisaQuest from "./Components/LisaQuest";
+import ChefHopper from "./Components/work/ChefHopper";
+import LisaQuest from "./Components/work/LisaQuest";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";

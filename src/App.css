@@ -195,21 +195,29 @@
 }
 
 #work-body {
+  display: flex;
+  flex-direction: row;
   margin: 0%;
   background-color: #e6e8ec;
   font-size: 20px;
   font-weight: normal;
 }
-
-#work-card {
+/* .workCards {
+  display: flex;
+  flex-direction: row;
+} */
+.work-card {
+  /* display: flex;
+  flex-direction: row; */
   background-color: #e6e8ec;
   border: none;
   margin: 0%;
 }
-#work-card:hover {
+.work-card:hover {
   transition-duration: 0.5s;
   filter: grayscale();
 }
+
 
 .codePage {
   background-color: #e6e8ec;
